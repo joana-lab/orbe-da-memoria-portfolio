@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node / tooling (not used in this repo, but guarded)
+node_modules/
+npm-debug.log*
+
+# Local / temporary
+tmp/
+*.log
+*.bak
+
+# Never commit secrets to a public repo
+.env
+.env.*
+*.pem
+*.key
+id_ed25519*
+id_rsa*

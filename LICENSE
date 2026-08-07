@@ -1,0 +1,40 @@
+Copyright © 2026 Joana Morais. All rights reserved.
+
+Orbe da Memória — Portfolio Case Study
+=======================================
+
+This repository is a PUBLIC ARCHITECTURE AND PRODUCT CASE STUDY. It contains
+documentation, diagrams, and purpose-built illustrative examples only.
+
+It does NOT include, and does not grant any right to:
+  - the Orbe da Memória production source code;
+  - the production datasets or curated historical content;
+  - internal agent instructions or proprietary prompts;
+  - brand assets, logos, or the names "Orbe da Memória" and "Lusita".
+
+Scope of this notice
+--------------------
+
+1. Documentation and diagrams (README.md, docs/, diagrams/)
+   Provided for reading, evaluation, and professional assessment of the author's
+   work. You may quote or reference them with attribution. They describe a
+   proprietary system; this notice is not a grant of rights to that system.
+
+2. Illustrative examples (examples/)
+   The example data and code in examples/ are fictional/simplified and were
+   created for this case study. They may be reused for learning or reference
+   with attribution to the author. They do not reproduce production material.
+
+3. Screenshots and brand assets
+   Any screenshots, imagery, logos, and the product/brand names remain
+   copyrighted and may not be reused without permission.
+
+4. Production intellectual property
+   The production source code, datasets, and internal operating instructions are
+   proprietary, are not included in this repository, and are expressly reserved.
+
+Nothing in this repository places the Orbe da Memória production intellectual
+property under an open-source license.
+
+For permissions or professional enquiries, contact the author via the linked
+professional profiles.

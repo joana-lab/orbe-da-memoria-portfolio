@@ -1,0 +1,84 @@
+{
+  "_comment": "ILLUSTRATIVE EXAMPLE for the Orbe da Memória portfolio. Values are fictional / simplified and exist only to demonstrate the structured-content schema. This is NOT production data and does not reproduce any real dossier.",
+  "id": "example-entity-coastal-fort",
+  "type": "place",
+  "name": "Coastal Fort (illustrative)",
+  "timeAnchor": {
+    "year": 1590,
+    "precision": "approximate",
+    "era": "early-modern"
+  },
+  "coordinates": {
+    "lat": 38.7,
+    "lng": -9.42,
+    "state": "candidate"
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "text": "A coastal fort was built here to guard the estuary approach.",
+      "grade": "documented",
+      "natureOfSource": "primary-source",
+      "dating": "contemporary",
+      "sourceRef": "S01"
+    },
+    {
+      "id": "C02",
+      "text": "Local tradition places an earlier watchtower on the same rock.",
+      "grade": "tradition",
+      "natureOfSource": "tradition-record",
+      "dating": "later",
+      "sourceRef": "S02"
+    },
+    {
+      "id": "C03",
+      "text": "The year of completion is disputed between two chroniclers.",
+      "grade": "in-conflict",
+      "natureOfSource": "scholarly-study",
+      "dating": "later",
+      "sourceRef": "S03"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Royal building order (illustrative)",
+      "holdingInstitution": "National archive (illustrative)",
+      "reference": "COLLECTION / BOX / DOC (illustrative)",
+      "documentUrl": "https://example.org/facsimile/illustrative",
+      "access": "open",
+      "imageLicense": "public-domain",
+      "strength": "demonstrates"
+    },
+    {
+      "id": "S02",
+      "title": "Regional folklore collection (illustrative)",
+      "holdingInstitution": "University repository (illustrative)",
+      "reference": "SERIES / VOL (illustrative)",
+      "documentUrl": "https://example.org/catalogue/illustrative",
+      "access": "partial",
+      "imageLicense": "reserved",
+      "strength": "transports"
+    },
+    {
+      "id": "S03",
+      "title": "Comparative chronology study (illustrative)",
+      "holdingInstitution": "Academic journal (illustrative)",
+      "reference": "DOI (illustrative)",
+      "documentUrl": "https://example.org/study/illustrative",
+      "access": "open",
+      "imageLicense": "reserved",
+      "strength": "identifies"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "example-entity-coastal-fort",
+      "to": "example-entity-engineer",
+      "type": "built-by",
+      "curated": true,
+      "note": "Curated link. Relationships are never AI-invented."
+    }
+  ],
+  "honestAbsence": "The original construction plans have not been located in this dossier (localised gap, not a claim of non-existence)."
+}
