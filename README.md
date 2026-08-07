@@ -183,16 +183,27 @@ shipped feature. See [docs/roadmap.md](docs/roadmap.md).
 
 ## 12 · Screenshots
 
-The platform is live and public at **https://lusita.io/orbe/**. Rather than embed images that
-could drift out of date, this case study points to the live experience and describes the
-capabilities each view demonstrates; captioned captures may be added under
-[assets/screenshots/](assets/screenshots/).
+The platform is live and public at **https://lusita.io/orbe/**. Captures below are from the live site.
 
-- **Discovery / homepage** — natural-language entry point into the atlas; honest handling of absent results.
-- **Map experience** — Leaflet map that activates in response to intent, with historical routes.
-- **Source / claim view** — per-claim certainty grade, nature-of-source, and source-to-document links.
-- **Entity exploration** — figures and places as a cross-collection knowledge network.
-- **3D / time-machine (prototype)** — a Three.js exploration, in the lab, not yet integrated.
+### Discovery
+
+![Orbe da Memória discovery panel: a natural-language prompt reading "O que queres descobrir?" with suggestion chips, above the live interactive map section](assets/screenshots/discovery.png)
+
+*Natural-language entry into the atlas ("Perguntar ao Orbe"), above a contextual map that reacts to intent rather than presenting a static catalogue.*
+
+### Source-first entity page — Vasco da Gama
+
+![Entity page for Vasco da Gama with a narrative, a Wikidata identity reference, and a "what we know, and with what certainty" section containing a verbatim source quotation cited to the folio](assets/screenshots/entity-vasco.png)
+
+*Each claim is shown with its certainty and the source that sustains it — quoted verbatim and cited to the folio — with identity linked to Wikidata (structured, interoperable metadata).*
+
+### Honest handling of legend vs. document — Egas Moniz
+
+![Entity page for Egas Moniz distinguishing what contemporary documents show, mordomo-mor between 1136 and 1146, from what tradition holds, the legend of the rope around the neck at Toledo](assets/screenshots/entity-egas.png)
+
+*The model separates documented fact from tradition explicitly: the page states plainly which parts live in legend and which are supported by contemporary documents.*
+
+The 3D / time-machine experience is a **prototype in the lab** and is intentionally not shown here as a production capability.
 
 ## 13 · What this project demonstrates
 
