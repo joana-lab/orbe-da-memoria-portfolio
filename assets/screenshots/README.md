@@ -12,13 +12,11 @@ Guidance for any capture added here:
   (e.g. "contextual Leaflet map activating on a query"), not just what it looks like.
 - Prefer stable views over transient states so captions do not drift out of date.
 
-Suggested set:
+Current set (captured from the live public site):
 
-- `discovery.png` — homepage / natural-language entry point
-- `map.png` — Leaflet map with a historical route
-- `claim.png` — a claim shown with certainty grade and source link
-- `entity.png` — an entity page within the knowledge network
-- `prototype-3d.png` — the Three.js exploration (labelled as prototype)
+- `discovery.png` — natural-language entry point ("Perguntar ao Orbe") above the live map
+- `entity-vasco.png` — a source-first entity page: a claim quoted verbatim and cited to the folio, with Wikidata identity
+- `entity-egas.png` — honest handling of legend vs. document on an entity page
 
-Until images are added, the main README links to the live experience and describes each view in
-text, so there are no broken image references.
+Room to add later: a query-activated map view and a labelled prototype 3D capture. The
+prototype 3D lives in the lab and is not on the public site, so it is not captured here.
