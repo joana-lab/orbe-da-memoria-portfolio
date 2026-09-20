@@ -1,7 +1,8 @@
 # Roadmap
 
-High-level direction. States are kept distinct on purpose — *in production*, *in development*,
-*prototype*, and *planned* are not blurred.
+**Status as of September 2026.** High-level direction, kept as a real snapshot rather than an
+aspiration. States are kept distinct on purpose — *in production*, *in development*, *prototype*,
+and *planned* are not blurred, and nothing planned is described as delivered.
 
 ## Now (in production)
 

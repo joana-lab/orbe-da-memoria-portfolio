@@ -92,3 +92,11 @@ Hosts, paths, credentials, and scripts are intentionally excluded from this publ
   whatever) produces a claim is never the one who verifies it.
 - **Honest absence.** A missing source or coordinate is rendered as a stated gap, which required
   first-class "absence" states in the data model rather than empty fields.
+
+## Architecture as a governed decision
+
+These are **target-model decisions**, not defaults. Static-first, version-controlled data, and no
+runtime AI were chosen for a small trust surface, auditable state, and longevity — each with a
+recorded trade-off in [technical-decisions.md](technical-decisions.md). That recorded reasoning,
+with an author and a history, is what makes the architecture *governed* rather than merely
+implemented. The information-systems-governance reading is in [is-governance.md](is-governance.md).

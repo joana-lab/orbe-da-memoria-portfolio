@@ -27,6 +27,20 @@ state, owner, and revision into the repository.
 
 > **Done is not a chat message. Done is a verified state visible in version-controlled source.**
 
+## The gates as information-systems governance
+
+Named in governance vocabulary, the three gates are deliberately ordinary — and that is the point:
+
+- **Truth** is **separation of duties** plus **data governance**: work is verified outside its
+  producer, and every claim carries a source and an explicit grade.
+- **Scale** is **decision rights over the delivery system**: only a human changes who — or what —
+  may produce, because that changes how much happens before a human looks.
+- **Continuity** is a **single source of truth**: a decision counts only once it is approved *and*
+  committed, so state has an owner, a revision, and a history.
+
+The information-systems-governance and transformation reading of the whole project is collected in
+[is-governance.md](is-governance.md).
+
 ## Why the gates are shaped this way
 
 - **A rule that only protects you from subordinates protects you from nothing.** The governance

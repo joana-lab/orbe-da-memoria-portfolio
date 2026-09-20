@@ -61,3 +61,10 @@ someone; both are required.
 This is why quality lives in instruments and in committed state, not in status meetings. It is
 also what makes the project's status claims (in production / in development / prototype / planned)
 checkable rather than aspirational.
+
+## Delivery as IT transformation
+
+Read as a transformation, this is a move **from discipline to instruments** — hand-checking becomes
+controls derived from data state — and **from ad-hoc change to governed release**, where a deploy is
+not done until served-vs-built proof passes, fail-closed. The transferable operating-model reading
+is in [is-governance.md](is-governance.md).
